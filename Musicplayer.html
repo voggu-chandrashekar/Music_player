@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Music Player</title>
+    <link rel="stylesheet" href="Music_styles.css">
+</head>
+<body>
+    <div class="music-player">
+        <div class="search">
+            <input type="text" id="search-input" placeholder="Search songs...">
+        </div>
+        <div class="now-playing">
+            <img id="album-cover" src="" alt="Album Cover">
+            <div class="track-info">
+                <h2 id="track-title">Track Title</h2>
+                <h3 id="track-artist">Track Artist</h3>
+            </div>
+        </div>
+        <audio id="audio" controls></audio>
+        <div class="controls">
+            <button id="prev">Previous</button>
+            <button id="play">Play</button>
+            <button id="next">Next</button>
+        </div>
+        <div class="track-list" id="track-list"></div>
+    </div>
+    <script src="Music_script.js"></script>
+</body>
+</html>
